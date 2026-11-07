@@ -1,0 +1,13 @@
+# Virtual environment (recreate with setup-ubuntu.sh / setup-windows.ps1)
+.venv/
+# Python caches
+__pycache__/
+*.pyc
+# Node build deps
+_build/node_modules/
+# Generated/scratch artifacts
+_staging-*.pptx
+*.tmp
+# OS cruft
+Thumbs.db
+.DS_Store

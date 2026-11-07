@@ -1,0 +1,26 @@
+# Module 6 - Python Programming for Cyber Security
+# Python 3.10 - 3.12  (3.13 removed telnetlib, used in Session 17)
+# Install inside the venv:  python -m pip install -r requirements.txt
+# Versions below were tested together on Python 3.12 (Windows) on 2026-11-07.
+
+# Session 16 - networking
+scapy==2.8.0
+dnspython==2.9.2
+dnslib==0.9.26
+
+# Session 17 - web scraping
+beautifulsoup4==4.15.0
+requests==2.34.2
+
+# Session 20 - email archives (PST/OST reader used by libratom) and cryptography
+libpff-python==20260926
+pycryptodome==4.3.0
+
+# Sessions 21-22 - forensics
+pypdf==7.0.0
+pillow==13.0.0
+dpkt==1.9.8
+
+# Sessions 18-21 - Windows-only modules (skipped automatically on Ubuntu)
+pywin32==312 ; sys_platform == "win32"
+wmi==1.5.1 ; sys_platform == "win32"

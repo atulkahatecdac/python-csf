@@ -1,0 +1,26 @@
+// Canonical short name for each session, used in demo folder names and PPT
+// filenames: Session-<n>-Demos-<name>/  and  python-cyber-session-<n>-<name>.pptx
+module.exports = {
+  1: "Introduction-to-Python",
+  2: "Input-Output-and-Operators",
+  3: "Decision-Making",
+  4: "Loops",
+  5: "Strings",
+  6: "Lists",
+  7: "Nested-Lists-and-Tuples",
+  8: "Dictionaries",
+  9: "Functions",
+  10: "Functions-Part-2",
+  11: "Modules-and-Packages",
+  12: "File-Handling",
+  13: "Exceptions",
+  14: "Classes-and-Objects",
+  15: "Inheritance-and-Polymorphism",
+  16: "Networking-Libraries",
+  17: "Web-Parsing-and-OS",
+  18: "Windows-Internals",
+  19: "Files-Clipboard-and-Email",
+  20: "Cryptography",
+  21: "Forensics-Registry-PDF-Images",
+  22: "Forensics-Packets-and-Artifacts",
+};
